@@ -2,8 +2,19 @@
 
 ## Project Motivation
 
-In this project, I apply skills I learned in Data Engineering Section to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages.
+In this project, I apply skills I learned in Data Engineering Section to analyze disaster data from Figure Eight to build a ML model to classify disaster messages.
 
+## Process Flow
+  - Clean and Store the Data (process_data.py)
+    - The message data is cleaned and stored into a sqlite database
+  - Create, Train and Store Classifier (train_classifier.py)
+    - The train_classifier.py script takes the database file path and model file path, creates and trains a classifier, and stores the classifier into a pickle file to the specified model file path.
+    - The script uses a custom tokenize function using nltk to case normalize, lemmatize, and tokenize text. This function is used in the machine learning pipeline to vectorize and then apply TF-IDF to the text.
+    - The script builds a pipeline that processes text and then performs multi-output classification on the 36 categories in the dataset. GridSearchCV is used to find the best parameters for the model.
+  - Web app
+    - the home page has visualization showing classification of the messages
+    - The user can enter a message and view how the model classifies the message based on the trained model
+    
 ## File Description
     .
     ├── app     
