@@ -19,9 +19,9 @@ In this project, I apply skills I learned in Data Engineering Section to analyze
     - The user can enter a message and view how the model classifies the message based on the trained model
 
 To learn more about TF-IDF please follow the below links:
-  - [http://www.tfidf.com/] (TF-IDF - A Single Page Tutorial)
-  - [https://www.elephate.com/blog/what-is-tf-idf/] (What is TF-IDF)
-  - [https://medium.freecodecamp.org/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3] (Medium Post of TF-IDF)
+  - [TF-IDF - A Single Page Tutorial](http://www.tfidf.com/)
+  - [What is TF-IDF](https://www.elephate.com/blog/what-is-tf-idf/) 
+  - [Medium Post of TF-IDF](https://medium.freecodecamp.org/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3) 
 
 ## File Description
     .
