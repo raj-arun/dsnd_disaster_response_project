@@ -2,7 +2,7 @@
 
 ## Project Motivation
 
-In this project, I apply skills I learned in Data Engineering Section to analyze disaster data from Figure Eight to build a ML model to classify disaster messages.
+In this project, I apply skills I learned in Data Engineering Section to analyze disaster data from Figure Eight to build a Classifier model to classify disaster messages.
 
 ## Process Flow
   - Clean and Store the Data (process_data.py)
