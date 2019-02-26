@@ -48,7 +48,10 @@ def index():
     category_counts = []
     for column_name in category:
         category_counts.append(np.sum(df[column_name]))
-
+    
+    #sort in the descending order
+    category_counts.sort(reverse=True)
+    
     # extract data exclude related
     categories = df.iloc[:,4:]
     categories_mean = categories.mean().sort_values(ascending=False)[1:11]
